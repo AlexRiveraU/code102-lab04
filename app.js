@@ -1,5 +1,5 @@
 function userName() {
-    let userName = prompt("Create a username?");
+    let userName = prompt("Create a username:");
     let cats = prompt("Welcome, " + userName + "! Answer for a chance to win a prize. - What is a group of cats called, CLOWDER or KINDLE?");
     if (cats === "CLOWDER") {
     document.write("Congratulations, " + userName + "!! You just won a free membership to the site for one year!!"); 
@@ -8,7 +8,7 @@ function userName() {
 }
 
 
-function felines() {
-    let felines = prompt("What are your 3 favorite felines?");
-    document.write(felines);
+function feline() {
+    let feline = prompt("Name a type of feline:");
+    document.write(feline);
 }
