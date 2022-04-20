@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatolandia</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src= "app.js"></script>
 </head>
 
     <body>
@@ -14,22 +15,13 @@
         <header>
             <img src="https://loremflickr.com/180/180" alt="cat">
             <h1>GATOLANDIA</h1>
-                <script>
-                    let userName = prompt("Create a username?");
-                    console.log(userName);
-                    let cats = prompt("Welcome, " + userName + "! Answer correctly for a chance to win a prize. What is a group of cats called, CLOWDER or KINDLE?");
-                    if (cats === "CLOWDER") {
-                    document.write("Congratulations, " + userName + "!! You just won a free membership to the site for one year!!"); 
-                    } else {
-                    document.write("Sorry, that is not the right answer, " + userName + ". Better luck next time!");
-                    }
-                </script>
+            <script>userName()</script>
             <p class="about_website">A site for ailurophiles & photo enthusiasts</p>
                 <nav>
                     <ul>
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>   
+                        <li><a href="#"><script>felines()</script></a></li>
+                        <li><a href="#"><script>felines()</script></a></li>
+                        <li><a href="#"><script>felines()</script></a></li>   
                     </ul>  
                 </nav>    
         </header>
