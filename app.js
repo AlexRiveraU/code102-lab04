@@ -14,7 +14,7 @@ function userName() {
 
 function loopImg(){
     let number = prompt("Pick a number between 1 & 10 for a surprise:")
-    for (let i = 0; i <= number; i++){
+    for (let i = 1; i <= number; i++){
         if (i === 10) {break;}
         document.write("<img src='cat_moon.jpeg' alt='cat_moon' width='250' height='150'>")
     }
